@@ -9,7 +9,7 @@ const app = express();
 app.use(express.json());
 app.use(
   cors({
-    origin: ['http://localhost:8080','https://al-akbar-organization.vercel.app']
+    origin: ['http://localhost:8080','https://al-akbar-organization.vercel.app', 'https://agency.venstyler.com']
   })
 );
 
